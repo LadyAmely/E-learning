@@ -12,6 +12,14 @@ Users can browse through various courses in different specializations of the IT 
 
 ![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/courses.png)
 
+### User Registration and Authentication:
+
+This application uses Laravel Breeze to handle user registration, login, and password management. It includes features for user registration, secure login, password reset, and optional email verification. Laravel Breeze provides a simple and straightforward setup for managing user authentication and profile management.
+
+![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/home.png)
+
+![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/register.png)
+
 ## License
 
 This project is licensed under the MIT License.
