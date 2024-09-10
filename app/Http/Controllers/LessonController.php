@@ -12,4 +12,9 @@ class LessonController extends Controller
         $lessons = Lesson::all();
         return response()->json($lessons);
     }
+
+    public function show(){
+        $lessons = Lesson::all()->slice(40, 10);
+        return view('lesson', ['lessons'=> $lessons]);
+    }
 }

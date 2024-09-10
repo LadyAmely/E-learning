@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Platforma e-Learningowa</title>
-    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lesson.css') }}">
 </head>
 <body>
 
@@ -15,7 +16,7 @@
         </div>
         <nav class="nav">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="/home">Home</a></li>
                 <li><a href="#">Courses</a></li>
                 <li><a href="#">Profile</a></li>
                 <li>
@@ -33,39 +34,20 @@
     </div>
 </header>
 
-
-<section class="hero">
-    <div class="hero-content">
-        <h1>Unlock Your Potential with TechLearn</h1>
-        <p>Explore a wide range of IT courses designed to advance your skills and boost your career. Learn from industry experts and join a community of learners today.</p>
-        <a href="#" class="hero-cta-button">Browse Courses</a>
-
-    </div>
-    <img src="{{ asset('img.png') }}" alt="logo" class="hero-image"/>
-
-</section>
-
-<section id="courses" class="courses">
-    <h2 class="courses-header">Explore Our Courses</h2>
-    <div class="container">
-        <div class="course-list">
-            @foreach($courses as $course)
-                <div class="course-item">
-                    <div class="course-head" style="background: {{ $course->color }};"></div>
-                    <h3>{{ $course->title }}</h3>
-                    <p>{{ $course->description }}</p>
-                    <div class="button-container">
-                        @if($course->course_id == 5)
-                            <a href="/computer_networks" class="start-course-button">Start Course</a>
-                        @else
-                            <a href="#" class="start-course-button">Start Lesson</a>
-                        @endif
-                    </div>
-                </div>
-            @endforeach
+<div class="timeline">
+    @foreach($lessons as $lesson)
+    <div class="lesson-item">
+        <div class="circle"></div>
+        <div class="lesson-content">
+            <h3>Lesson {{ $loop->iteration }}: {{ $lesson->title }}</h3>
+            <p>{{$lesson->description}}</p>
+            <p class="lesson-date">Created at:  {{ $lesson->created_at->format('d M Y') }}</p>
+            <a href="#" class="start-lesson">Start Lesson</a>
         </div>
     </div>
-</section>
+    @endforeach
+
+</div>
 
 <footer class="footer">
     <div class="container">
@@ -86,6 +68,7 @@
         </div>
     </div>
 </footer>
+
 
 </body>
 </html>

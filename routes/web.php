@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/home', [CourseController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 Route::get('/', [MainController::class, 'index'])->name('main');
+Route::get('/computer_networks', [LessonController::class, 'show'])->name('home');
 
 Route::get('register', [RegisteredUserController::class, 'create'])
     ->name('register');
