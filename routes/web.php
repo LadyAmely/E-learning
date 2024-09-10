@@ -16,8 +16,7 @@ Route::get('/forum', [QuestionController::class, 'index'])->name('forum');
 
 Route::post('/toggle-form/{id}', [QuestionController::class, 'toggleForm'])->name('toggleForm');
 Route::post('/submit-reply/{id}', [QuestionController::class, 'submitReply'])->name('submitReply');
-
-
+Route::post('/questions/{questionId}/reply', [QuestionController::class, 'submitReply'])->name('questions.reply');
 
 Route::post('/submit-question', [QuestionController::class, 'store'])->name('submit.question');
 

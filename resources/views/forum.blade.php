@@ -61,13 +61,14 @@
                 </div>
                 @if(session('showForm') == $question->id)
                     <div class="reply-form">
-                        <form method="POST" action="{{ route('submitReply', $question->id) }}">
+                        <form method="POST" action="{{ route('questions.reply', $question->id) }}">
                             @csrf
-                            <textarea name="reply" placeholder="Write your answer"></textarea>
+                            <textarea name="body" placeholder="Write your answer"></textarea>
                             <button type="submit">Send Reply</button>
                         </form>
                     </div>
                 @endif
+
 
             </div>
 

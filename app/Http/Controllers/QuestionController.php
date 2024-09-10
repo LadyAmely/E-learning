@@ -41,13 +41,28 @@ class QuestionController extends Controller
     }
 
 
+
+
     public function submitReply(Request $request, $questionId)
     {
 
+        $validated = $request->validate([
+            'body' => 'required|string',
+        ]);
+
+
+        $answer = new Answer();
+        $answer->body = $validated['body'];
+        $answer->question_id = $questionId;
+        $answer->save();
+
+
         session()->forget('showForm');
 
-        return back();
+
+        return back()->with('success', 'Twoja odpowiedź została dodana!');
     }
+
 
 
 
