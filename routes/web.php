@@ -39,6 +39,13 @@ Route::post('logout', [AuthenticatedSessionController::class, 'destroy'])
 
 
 
+Route::get('/dashboard', function () {
+    return view('home');
+})->name('dashboard');
+
+Route::get('/dashboard', [CourseController::class, 'showCourses'])->name('dashboard');
+Route::get('/dashboard', [CourseController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
+
 Route::get('/lessons', [LessonController::class, 'index'])->middleware(['auth'])->name('lessons.index');
 
 require __DIR__.'/auth.php';

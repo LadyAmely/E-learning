@@ -17,7 +17,7 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Courses</a></li>
-                <li><a href="#">Profile</a></li>
+                <li><a href="/profile">Profile</a></li>
                 <li>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                         @csrf
