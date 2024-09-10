@@ -21,7 +21,19 @@ This application uses Laravel Breeze to handle user registration, login, and pas
 
 ![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/register.png)
 
+### Create your Profile:
+
+The "Profile" section, built with Laravel Breeze, allows users to manage their personal information and account settings. Users can edit their information, change their password, and verify their email address, ensuring security and convenience.
+
 ![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/tech-learn-profile.png)
+
+### Discussion Forum
+
+This project implements a discussion forum where users can create and participate in various discussions. Users can post new questions, view existing topics, and provide answers to other users' inquiries. 
+
+![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/forum-answer.png)
+
+![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/forum-question.png)
 
 ## License
 
