@@ -27,6 +27,14 @@ The "Profile" section, built with Laravel Breeze, allows users to manage their p
 
 ![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/tech-learn-profile.png)
 
+### Discussion Forum
+
+This project implements a discussion forum where users can create and participate in various discussions. Users can post new questions, view existing topics, and provide answers to other users' inquiries. 
+
+![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/forum-answer.png)
+
+![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/forum-question.png)
+
 ## License
 
 This project is licensed under the MIT License.
