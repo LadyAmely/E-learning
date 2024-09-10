@@ -11,7 +11,7 @@ TechLearn is an e-learning platform dedicated to IT courses. It allows users to 
 Users can browse through various courses in different specializations of the IT sector. Each course has a detailed description, syllabus, and instructor information to help in making a decision. Each course on the platform contains 10 lessons that allow users to easily learn information on any topic.
 
 ![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/courses.png)
-![TechLearn](https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/tech-learn-lessons-example.png)
+![TechLearn](https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/lessons.png)
 
 ### User Registration and Authentication:
 
