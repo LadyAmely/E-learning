@@ -2,7 +2,7 @@
 
 TechLearn is an e-learning platform dedicated to IT courses. It allows users to access a wide range of training materials in the IT field, such as programming, system administration and database management. The platform supports interactive learning, offering tests, exercises and a system for monitoring user progress. Thanks to flexible options, students can adapt their learning to their own needs and pace.
 
-![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/e-learning-dashboard.png)
+![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/home-tech-learn.png)
 
 ## KEY FEATURES:
 
