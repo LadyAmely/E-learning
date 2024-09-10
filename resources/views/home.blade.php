@@ -15,9 +15,10 @@
         </div>
         <nav class="nav">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="/home">Home</a></li>
                 <li><a href="#">Courses</a></li>
                 <li><a href="/profile">Profile</a></li>
+                <li><a href="/forum">Forum</a></li>
                 <li>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                         @csrf

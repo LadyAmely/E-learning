@@ -1,0 +1,437 @@
+
+.forum-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.forum-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.forum-header h1 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.forum-header p {
+    color: #333333;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+
+.forum-topic-list {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.forum-topic-list .forum-topic {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+.forum-topic-list .forum-topic:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.forum-topic-list .forum-topic h3 {
+    color: #007bff;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.forum-topic-list .forum-topic p {
+    color: #333333;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.forum-topic-list .forum-topic .forum-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #999999;
+}
+
+.forum-topic-list .forum-topic .forum-meta .forum-author {
+    font-weight: bold;
+}
+
+
+.forum-post {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.forum-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.forum-post h4 {
+    color: #007bff;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.75rem;
+}
+
+.forum-post p {
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.forum-reply {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.forum-reply a {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.forum-post .forum-reply {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forum-post .forum-reply a {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.forum-reply a:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.forum-post .forum-reply a:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+
+.forum-replies {
+    margin-top: 2rem;
+}
+
+.forum-replies .forum-reply-item {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.forum-replies .forum-reply-item .reply-author {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.forum-replies .forum-reply-item p {
+    font-size: 0.95rem;
+    color: #333333;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+}
+
+.forum-replies .forum-reply-item .reply-meta {
+    font-size: 0.85rem;
+    color: #999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.forum-pagination {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.forum-pagination a {
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    color: #007bff;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 0 0.25rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.forum-pagination a:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.footer {
+    background-color: #f8f9fa;
+    color: #333333;
+    padding: 2rem 1rem;
+    border-top: 2px solid #e0e0e0;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.footer-links {
+    margin-bottom: 1.5rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.footer-links ul li {
+    margin: 0;
+}
+
+.footer-links ul li a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #007bff;
+}
+
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-social .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    box-sizing: border-box;
+}
+
+.footer-social .social-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
+}
+
+.footer-social .social-icon:hover img {
+    opacity: 0.8;
+}
+
+.header {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 1rem 0;
+    border-bottom: 2px solid #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 0 1rem;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color: #007bff;
+}
+
+.cta .cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta .cta-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5);
+}
+
+
+
+.submit-question {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.submit-question h2 {
+    font-size: 2rem;
+    color: #0056b3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.submit-question label {
+    font-size: 1rem;
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.submit-question input[type="text"],
+.submit-question textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+.submit-question input[type="text"]:focus,
+.submit-question textarea:focus {
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.25);
+    border-color: #007bff;
+    outline: none;
+}
+
+.submit-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+
+@media (max-width: 768px) {
+    .submit-question {
+        padding: 1rem;
+    }
+
+    .submit-question h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.reply-form {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #007bb5;
+}
