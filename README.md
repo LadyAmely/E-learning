@@ -21,6 +21,8 @@ This application uses Laravel Breeze to handle user registration, login, and pas
 
 ![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/register.png)
 
+![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/tech-learn-profile.png)
+
 ## License
 
 This project is licensed under the MIT License.
