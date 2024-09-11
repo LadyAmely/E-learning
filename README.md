@@ -35,6 +35,9 @@ This project implements a discussion forum where users can create and participat
 
 ![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/forum-question.png)
 
+![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/forum-discussion.png)
+
+
 ## License
 
 This project is licensed under the MIT License.
