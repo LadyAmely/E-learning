@@ -64,6 +64,19 @@ class QuestionController extends Controller
     }
 
 
+    public function showForum()
+    {
+        $questions = Question::all();
+
+        $answers = Answer::all();
+
+        return view('forum', ['questions' => $questions, 'answers' => $answers]);
+    }
+
+
+
+
+
 
 
 

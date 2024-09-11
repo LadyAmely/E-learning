@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/forum', [ForumController::class, 'index'])->name('forum');
 Route::get('/forum', [QuestionController::class, 'index'])->name('forum');
+Route::get('/forum', [QuestionController::class, 'showForum'])->name('forum');
 
 Route::post('/toggle-form/{id}', [QuestionController::class, 'toggleForm'])->name('toggleForm');
 Route::post('/submit-reply/{id}', [QuestionController::class, 'submitReply'])->name('submitReply');

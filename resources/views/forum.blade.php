@@ -75,25 +75,23 @@
         @endforeach
     </div>
 
-    <div class="forum-replies">
-        <div class="forum-reply-item">
-            <span class="reply-author">Anna Nowak</span>
-            <p>Bardzo pomocne! Dziękuję za odpowiedź, właśnie takiego przewodnika potrzebowałam.</p>
-            <div class="reply-meta">
-                <span>Data: 10.09.2023</span>
-                <span><a href="#">Zgłoś</a></span>
-            </div>
-        </div>
 
-        <div class="forum-reply-item">
-            <span class="reply-author">Piotr Wiśniewski</span>
-            <p>Świetne wskazówki, a czy istnieje możliwość dostępu do dodatkowych materiałów?</p>
-            <div class="reply-meta">
-                <span>Data: 12.09.2023</span>
-                <span><a href="#">Zgłoś</a></span>
+    <div class="forum-replies">
+        @foreach($answers->where('question_id', $question->id) as $answer)
+            <div class="forum-reply-item">
+                <span class="reply-author">{{ $answer->user->name ?? 'Anonymous' }}</span>
+                <p>{{ $answer->body }}</p>
+                <div class="reply-meta">
+                    <span>Date: {{ $answer->created_at->format('d.m.Y') }}</span>
+                    <span><a href="#">Report</a></span>
+                </div>
             </div>
-        </div>
+        @endforeach
     </div>
+
+
+
+
 
 
     <div class="forum-pagination">
