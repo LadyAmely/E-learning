@@ -13,20 +13,21 @@ class QuestionController extends Controller
         $questions = Question::all();
         return view('forum', ['questions' => $questions]);
     }
+
     public function store(Request $request)
     {
-
         $validated = $request->validate([
             'title' => 'required|string',
             'content_question' => 'required|string',
         ]);
 
-
         $question = new Question();
         $question->title = $validated['title'];
         $question->content_question = $validated['content_question'];
-        $question->save();
 
+
+        $question->user_id = auth()->id();
+        $question->save();
 
         return redirect()->back()->with('success', 'Twoje pytanie zostało przesłane!');
     }
@@ -40,9 +41,6 @@ class QuestionController extends Controller
         return back();
     }
 
-
-
-
     public function submitReply(Request $request, $questionId)
     {
 
@@ -54,6 +52,7 @@ class QuestionController extends Controller
         $answer = new Answer();
         $answer->body = $validated['body'];
         $answer->question_id = $questionId;
+        $answer->user_id = auth()->id();
         $answer->save();
 
 

@@ -45,12 +45,12 @@
 
     <div class="forum-topic-list">
 
-        @foreach($questions as $question)
+        @foreach(auth()->user()->questions as $question)
             <div class="forum-topic">
                 <h3>{{ $question->title }}</h3>
                 <p>{{ $question->content_question }}</p>
                 <div class="forum-meta">
-                    <span class="forum-author">Author: Laura Anderson</span>
+                    <span class="forum-author">Author: {{ auth()->user()->name }}</span>
                     <span>Answers: 3</span>
                 </div>
                 <div class="forum-reply">
@@ -75,9 +75,8 @@
         @endforeach
     </div>
 
-
     <div class="forum-replies">
-        @foreach($answers->where('question_id', $question->id) as $answer)
+        @foreach(auth()->user()->answers->where('question_id', $question->id) as $answer)
             <div class="forum-reply-item">
                 <span class="reply-author">{{ $answer->user->name ?? 'Anonymous' }}</span>
                 <p>{{ $answer->body }}</p>
@@ -88,11 +87,6 @@
             </div>
         @endforeach
     </div>
-
-
-
-
-
 
     <div class="forum-pagination">
         <a href="#">Previous</a>

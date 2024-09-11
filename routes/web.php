@@ -14,12 +14,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/forum', [ForumController::class, 'index'])->name('forum');
 Route::get('/forum', [QuestionController::class, 'index'])->name('forum');
 Route::get('/forum', [QuestionController::class, 'showForum'])->name('forum');
+Route::post('/submit-question', [QuestionController::class, 'store'])->middleware('auth')->name('submit.question');
 
 Route::post('/toggle-form/{id}', [QuestionController::class, 'toggleForm'])->name('toggleForm');
 Route::post('/submit-reply/{id}', [QuestionController::class, 'submitReply'])->name('submitReply');
-Route::post('/questions/{questionId}/reply', [QuestionController::class, 'submitReply'])->name('questions.reply');
-
-Route::post('/submit-question', [QuestionController::class, 'store'])->name('submit.question');
+Route::post('/questions/{questionId}/reply', [QuestionController::class, 'submitReply'])->middleware('auth')->name('questions.reply');
 
 Route::get('/home', [CourseController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 Route::get('/', [MainController::class, 'index'])->name('main');

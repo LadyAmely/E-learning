@@ -16,6 +16,14 @@ class Question extends Model
         'content_question',
     ];
 
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+
+
+
 
 
 
