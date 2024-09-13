@@ -42,7 +42,7 @@ This project implements a discussion forum where users can create and participat
 #### Video Files:
 Each lesson includes a set of videos that detail concepts and techniques related to the course topic. The videos are interactive and can be paused, fast-forwarded, and played in different window sizes.
 
-![TechLearn]('https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/quiz.png')
+![TechLearn](https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/video-lesson.png)
 
 #### Presentations:
 
