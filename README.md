@@ -60,7 +60,7 @@ Participants have access to PDF materials that can be downloaded to their comput
 
 After each lesson, there is a short quiz that allows you to test your knowledge and understanding of the topics covered.
 
-![TechLearn]('https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/quiz.png')
+![TechLearn](https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/quiz.png)
 
 #### Interactive IDE:
 
