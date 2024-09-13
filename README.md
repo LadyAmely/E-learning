@@ -42,21 +42,31 @@ This project implements a discussion forum where users can create and participat
 #### Video Files:
 Each lesson includes a set of videos that detail concepts and techniques related to the course topic. The videos are interactive and can be paused, fast-forwarded, and played in different window sizes.
 
+![TechLearn]('https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/quiz.png')
+
 #### Presentations:
 
 Ability to open PowerPoint presentations that accompany videos. Presentations include key lesson points, diagrams, and additional information that helps you better understand the material.
+
+![TechLearn]('https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/quiz.png')
 
 #### PDF Materials for Download:
 
 Participants have access to PDF materials that can be downloaded to their computer.
 
+![TechLearn]('https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/quiz.png')
+
 #### Short Quiz:
 
 After each lesson, there is a short quiz that allows you to test your knowledge and understanding of the topics covered.
 
+![TechLearn]('https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/quiz.png')
+
 #### Interactive IDE:
 
 Each lesson includes access to an interactive IDE (Integrated Development Environment) that lets you write, test, and debug code right in your browser. Students can experiment with code and see the results immediately.
+
+![TechLearn]('https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/quiz.png')
 
 #### Documentation Links:
 
