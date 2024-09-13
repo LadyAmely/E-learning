@@ -7,10 +7,12 @@ use App\Http\Controllers\CourseController;
 use App\Http\Controllers\ForumController;
 use App\Http\Controllers\LessonController;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\MaterialsController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\QuestionController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/materials', [MaterialsController::class, 'index'])->name('materials');
 Route::get('/forum', [ForumController::class, 'index'])->name('forum');
 Route::get('/forum', [QuestionController::class, 'index'])->name('forum');
 Route::get('/forum', [QuestionController::class, 'showForum'])->name('forum');
