@@ -27,7 +27,7 @@ The "Profile" section, built with Laravel Breeze, allows users to manage their p
 
 ![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/tech-learn-profile.png)
 
-### Discussion Forum
+### Discussion Forum:
 
 This project implements a discussion forum where users can create and participate in various discussions. Users can post new questions, view existing topics, and provide answers to other users' inquiries. 
 
@@ -37,6 +37,28 @@ This project implements a discussion forum where users can create and participat
 
 ![TechLearn](https://github.com/LadyAmely/e-learning/blob/main/forum-discussion.png)
 
+### Video Files:
+Each lesson includes a set of videos that detail concepts and techniques related to the course topic. The videos are interactive and can be paused, fast-forwarded, and played in different window sizes.
+
+### Presentations:
+
+Ability to open PowerPoint presentations that accompany videos. Presentations include key lesson points, diagrams, and additional information that helps you better understand the material.
+
+### PDF Materials for Download:
+
+Participants have access to PDF materials that can be downloaded to their computer.
+
+### Short Quiz:
+
+After each lesson, there is a short quiz that allows you to test your knowledge and understanding of the topics covered.
+
+### Interactive IDE:
+
+Each lesson includes access to an interactive IDE (Integrated Development Environment) that lets you write, test, and debug code right in your browser. Students can experiment with code and see the results immediately.
+
+### Documentation Links:
+
+Throughout the lessons, links to technical documentation and reference materials are provided. The links lead to up-to-date and complete documentation that makes it easier to further explore the topics covered and resolve issues encountered while working with the code.
 
 ## License
 
