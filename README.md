@@ -54,7 +54,7 @@ Ability to open PowerPoint presentations that accompany videos. Presentations in
 
 Participants have access to PDF materials that can be downloaded to their computer.
 
-![TechLearn]('https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/quiz.png')
+![TechLearn](https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/materials_to_download.png)
 
 #### Short Quiz:
 
