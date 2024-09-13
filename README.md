@@ -66,7 +66,7 @@ After each lesson, there is a short quiz that allows you to test your knowledge 
 
 Each lesson includes access to an interactive IDE (Integrated Development Environment) that lets you write, test, and debug code right in your browser. Students can experiment with code and see the results immediately.
 
-![TechLearn]('https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/quiz.png')
+![TechLearn](https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/interactive_ide.png)
 
 #### Documentation Links:
 
