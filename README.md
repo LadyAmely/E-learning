@@ -48,7 +48,7 @@ Each lesson includes a set of videos that detail concepts and techniques related
 
 Ability to open PowerPoint presentations that accompany videos. Presentations include key lesson points, diagrams, and additional information that helps you better understand the material.
 
-![TechLearn]('https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/quiz.png')
+![TechLearn](https://github.com/LadyAmely/e-learning-Laravel-PostgreSQL/blob/main/presentation.png)
 
 #### PDF Materials for Download:
 
