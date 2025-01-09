@@ -2,6 +2,7 @@
 
 An e-learning platform dedicated to IT courses. It allows users to access a wide range of training materials in the IT field, such as programming, system administration and database management. The platform supports interactive learning, offering tests, exercises and a system for monitoring user progress. Thanks to flexible options, students can adapt their learning to their own needs and pace.
 
+![](https://komarev.com/ghpvc/?username=LadyAmely&color=green)
 
 ## KEY FEATURES:
 
